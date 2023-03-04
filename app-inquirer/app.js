@@ -34,7 +34,7 @@ const main = async() => {
             break;
 
             case '3': // mostrar tareas completadas
-                tareas.listarPendComp(true);
+                tareas.listarPendComp();
             break;
 
             case '4': // mostrar tareas pendientes
